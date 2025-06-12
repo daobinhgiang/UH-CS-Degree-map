@@ -13,6 +13,7 @@
     "@radix-ui/themes": "^3.2.1",
     "@tailwindcss/vite": "^4.1.8",
     "@xyflow/react": "^12.6.4",
+    "my-react-app": "file:..",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.8",
