@@ -1,12 +1,12 @@
-import { Course } from "../types/course";
-import { Node, Edge } from "reactflow";
+import type { Course } from "../types/course";
+import type { Node, Edge } from "@xyflow/react";
 
 export function buildGraph(courses: Course[]) {
-  const nodes: Node[] = courses.map((course, index) => ({
+  const nodes: Node[] = courses.map((course) => ({
     id: course.code,
-    data: { label: `${course.code}` },
-    position: { x: 150 * (index % 5), y: 150 * Math.floor(index / 5) },
-    type: "default",
+    data: { ...course } as Course & Record<string, unknown>,
+    position: course.position,
+    type: "courseNode",
   }));
 
   const edges: Edge[] = courses.flatMap(course =>
@@ -14,7 +14,10 @@ export function buildGraph(courses: Course[]) {
       id: `${prereq}->${course.code}`,
       source: prereq,
       target: course.code,
-      animated: true,
+      sourceHandle: 'prerequisite-for',
+      targetHandle: 'prerequisite',
+      type: 'step',
+      // animated: true,
     }))
   );
 
