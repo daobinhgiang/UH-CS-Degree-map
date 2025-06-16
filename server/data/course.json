@@ -1,0 +1,167 @@
+[
+    {
+      "id": "ENGL 1301",
+      "title": "First Year Writing I",
+      "credits": 3,
+      "prerequisites": [],
+      "type": "course"
+    },
+    {
+      "id": "ENGL 1302",
+      "title": "First Year Writing II",
+      "credits": 3,
+      "prerequisites": ["ENGL 1301"],
+      "type": "course"
+    },
+    {
+      "id": "MATH 1314",
+      "title": "College Algebra",
+      "credits": 3,
+      "prerequisites": [],
+      "type": "course"
+    },
+    {
+      "id": "MATH 2312",
+      "title": "Precalculus",
+      "credits": 3,
+      "prerequisites": ["MATH 1314"],
+      "type": "course"
+    },
+    {
+      "id": "MATH 2413",
+      "title": "Calculus I",
+      "credits": 4,
+      "prerequisites": ["MATH 2312"],
+      "type": "course"
+    },
+    {
+      "id": "MATH 2305",
+      "title": "Discrete Math",
+      "credits": 3,
+      "prerequisites": ["MATH 1314"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 1336",
+      "title": "Computer Science and Programming",
+      "credits": 3,
+      "prerequisites": ["MATH 1314"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 1437",
+      "title": "Introduction to Programming",
+      "credits": 4,
+      "prerequisites": ["COSC 1336"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 2425",
+      "title": "Computer Organization and Architecture",
+      "credits": 4,
+      "prerequisites": ["COSC 1437"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 2436",
+      "title": "Programming and Data Structure",
+      "credits": 4,
+      "prerequisites": ["COSC 1437"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 3320",
+      "title": "Algorithms and Data Structures",
+      "credits": 3,
+      "prerequisites": ["COSC 2436"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 3260",
+      "title": "Fundamentals of Operating Systems",
+      "credits": 3,
+      "prerequisites": ["COSC 2436"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 3380",
+      "title": "Database Systems",
+      "credits": 3,
+      "prerequisites": ["COSC 2436"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 3340",
+      "title": "Introduction to Automata and Computability",
+      "credits": 3,
+      "prerequisites": ["COSC 2436"],
+      "type": "course"
+    },
+    {
+      "id": "COSC 4351",
+      "title": "Fundamentals of Software Engineering",
+      "credits": 3,
+      "prerequisites": ["COSC 3320"],
+      "type": "course"
+    },
+    {
+      "id": "MATH 2414",
+      "title": "Calculus II",
+      "credits": 4,
+      "prerequisites": ["MATH 2413"],
+      "type": "course"
+    },
+    {
+      "id": "MATH 3332",
+      "title": "Statistics for the Sciences",
+      "credits": 3,
+      "prerequisites": ["MATH 2414"],
+      "type": "course"
+    },
+    {
+      "id": "NSM Natural Science Lecture",
+      "title": "NSM Natural Science Lecture",
+      "type": "requirement"
+    },
+    {
+      "id": "NSM Natural Science Lab",
+      "title": "NSM Natural Science Lab",
+      "type": "requirement"
+    },
+    {
+      "id": "American History",
+      "title": "American History",
+      "type": "requirement"
+    },
+    {
+      "id": "GOVT 2305",
+      "title": "US Government",
+      "type": "requirement"
+    },
+    {
+      "id": "GOVT 2306",
+      "title": "US & Texas Constitution",
+      "type": "requirement"
+    },
+    {
+      "id": "Language, Philosophy & Culture",
+      "title": "Language, Philosophy & Culture",
+      "type": "requirement"
+    },
+    {
+      "id": "Creative Arts",
+      "title": "Creative Arts",
+      "type": "requirement"
+    },
+    {
+      "id": "Social & Behavioral Sciences",
+      "title": "Social & Behavioral Sciences",
+      "type": "requirement"
+    },
+    {
+      "id": "Writing in the Disciplines",
+      "title": "Writing in the Disciplines",
+      "type": "requirement"
+    }
+  ]
+  

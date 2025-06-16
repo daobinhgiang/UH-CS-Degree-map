@@ -1,0 +1,184 @@
+{
+  "courses": [
+    {
+      "code": "ENGL 1301",
+      "title": "First Year Writing I",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -600, "y": 0 }
+    },
+    {
+      "code": "ENGL 1302",
+      "title": "First Year Writing II",
+      "credits": 3,
+      "prerequisites": ["ENGL 1301"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -600, "y": 120 }
+    },
+    {
+      "code": "MATH 1314",
+      "title": "College Algebra (can be skipped with entrance exam)",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "math",
+      "description": "",
+      "position": { "x": -300, "y": 0 }
+    },
+    {
+      "code": "MATH 2312",
+      "title": "Precalculus",
+      "credits": 3,
+      "prerequisites": ["MATH 1314"],
+      "courseType": "math",
+      "description": "",
+      "position": { "x": 0, "y": 0 }
+    },
+    {
+      "code": "COSC 1336",
+      "title": "Computer Science and Programming",
+      "credits": 3,
+      "prerequisites": ["MATH 1314"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -300, "y": 120 }
+    },
+    {
+      "code": "MATH 2413",
+      "title": "Calculus I",
+      "credits": 4,
+      "prerequisites": ["MATH 2312"],
+      "courseType": "math",
+      "description": "",
+      "position": { "x": 300, "y": 0 }
+    },
+    {
+      "code": "COSC 1437",
+      "title": "Introduction to Programming",
+      "credits": 3,
+      "prerequisites": ["COSC 1336"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -300, "y": 240 }
+    },
+    {
+      "code": "MATH 2305",
+      "title": "Discrete Math",
+      "credits": 3,
+      "prerequisites": ["MATH 2413"],
+      "courseType": "math",
+      "description": "",
+      "position": { "x": 300, "y": 120 }
+    },
+    {
+      "code": "COSC 2425",
+      "title": "Computer Organization and Architecture",
+      "credits": 3,
+      "prerequisites": ["COSC 1437"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -500, "y": 360 }
+    },
+    {
+      "code": "COSC 2436",
+      "title": "Programming and Data Structure",
+      "credits": 3,
+      "prerequisites": ["COSC 1437"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -100, "y": 360 }
+    },
+    {
+      "code": "COSC 3320",
+      "title": "Algorithms and Data Structures",
+      "credits": 3,
+      "prerequisites": ["COSC 2436"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -300, "y": 480 }
+    },
+    {
+      "code": "COSC 3360",
+      "title": "Fundamentals of Operating Systems",
+      "credits": 3,
+      "prerequisites": ["COSC 2425"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -500, "y": 600 }
+    },
+    {
+      "code": "COSC 3380",
+      "title": "Database Systems",
+      "credits": 3,
+      "prerequisites": ["COSC 2436"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": -100, "y": 600 }
+    },
+    {
+      "code": "COSC 3340",
+      "title": "Introduction to Automata and Computability",
+      "credits": 3,
+      "prerequisites": ["COSC 2436", "COSC 2425"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": 100, "y": 600 }
+    },
+    {
+      "code": "COSC 4351",
+      "title": "Fundamentals of Software Engineering",
+      "credits": 3,
+      "prerequisites": ["COSC 3380"],
+      "courseType": "core",
+      "description": "",
+      "position": { "x": 300, "y": 600 }
+    },
+    {
+      "code": "Advanced COSC Elective 1",
+      "title": "Advanced COSC Elective",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "advanced",
+      "description": "",
+      "position": { "x": -700, "y": 720 }
+    },
+    {
+      "code": "Advanced COSC Elective 2",
+      "title": "Advanced COSC Elective",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "advanced",
+      "description": "",
+      "position": { "x": -500, "y": 720 }
+    },
+    {
+      "code": "Advanced COSC Elective 3",
+      "title": "Advanced COSC Elective",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "advanced",
+      "description": "",
+      "position": { "x": -300, "y": 720 }
+    },
+    {
+      "code": "Advanced COSC Elective 4",
+      "title": "Advanced COSC Elective",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "advanced",
+      "description": "",
+      "position": { "x": -100, "y": 720 }
+    },
+    {
+      "code": "Advanced COSC Elective 5",
+      "title": "Advanced COSC Elective",
+      "credits": 3,
+      "prerequisites": [],
+      "courseType": "advanced",
+      "description": "",
+      "position": { "x": 100, "y": 720 }
+    }
+  ]
+} 
