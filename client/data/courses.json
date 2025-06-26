@@ -25,7 +25,7 @@
       "prerequisites": [],
       "courseType": "math",
       "description": "",
-      "position": { "x": -300, "y": 0 }
+      "position": { "x": -300, "y": -150 }
     },
     {
       "code": "MATH 2312",
@@ -52,7 +52,7 @@
       "prerequisites": ["MATH 2312"],
       "courseType": "math",
       "description": "",
-      "position": { "x": 300, "y": 0 }
+      "position": { "x": 300, "y": 130 }
     },
     {
       "code": "COSC 1437",
@@ -61,7 +61,7 @@
       "prerequisites": ["COSC 1336"],
       "courseType": "core",
       "description": "",
-      "position": { "x": -300, "y": 240 }
+      "position": { "x": -300, "y": 250 }
     },
     {
       "code": "MATH 2305",
@@ -70,7 +70,7 @@
       "prerequisites": ["MATH 2413"],
       "courseType": "math",
       "description": "",
-      "position": { "x": 300, "y": 120 }
+      "position": { "x": 300, "y": 240 }
     },
     {
       "code": "COSC 2425",
