@@ -1,12 +1,18 @@
-import React from 'react'
-import { useCallback, useState, useEffect } from 'react'
-import { ReactFlow, Background, Controls, applyNodeChanges, applyEdgeChanges } from '@xyflow/react'
-import type { Node, Edge } from '@xyflow/react'
-import '@xyflow/react/dist/style.css';
-import CourseNode from './components/CourseNode';
-import { buildGraph } from '../utils/graphBuilder';
-import coursesData from '../data/courses.json';
-import type { Course } from '../types/course';
+import React from "react";
+import { useCallback, useState, useEffect } from "react";
+import {
+  ReactFlow,
+  Background,
+  Controls,
+  applyNodeChanges,
+  applyEdgeChanges
+} from "@xyflow/react";
+import type { Node, Edge } from "@xyflow/react";
+import "@xyflow/react/dist/style.css";
+import CourseNode from "./components/CourseNode";
+import { buildGraph } from "../utils/graphBuilder";
+import coursesData from "../data/courses.json";
+import type { Course } from "../types/course";
 
 function App() {
   const [nodes, setNodes] = useState<Node[]>([]);
@@ -37,8 +43,8 @@ function App() {
   }, []);
 
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <div style={{ position: 'absolute', top: 10, right: 10, zIndex: 4 }}>
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <div style={{ position: "absolute", top: 10, right: 10, zIndex: 4 }}>
         <button
           onClick={resetPositions}
           className="px-4 py-2 text-black outline-black outline-2 rounded hover:bg-blue-600 transition-colors"
@@ -58,7 +64,7 @@ function App() {
         <Controls />
       </ReactFlow>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
